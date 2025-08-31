@@ -8,6 +8,13 @@ This example shows how to use Flask 3 on Vercel with Serverless Functions using 
 
 https://flask-python-template.vercel.app/
 
+## Monthly Budget Page
+
+This project now includes a simple page to manage a monthly budget. Visit
+`/api/budget` when running locally to set a spending limit and record
+expenses. The page shows the total spent and the remaining budget for the
+month.
+
 ## How it Works
 
 This example uses the Web Server Gateway Interface (WSGI) with Flask to enable handling requests on Vercel with Serverless Functions.
